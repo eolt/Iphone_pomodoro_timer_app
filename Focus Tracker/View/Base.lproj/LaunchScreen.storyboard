@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina5_9" orientation="portrait" appearance="dark"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="gam-AC-b0A">
+                                <rect key="frame" x="169" y="388" width="37" height="36"/>
+                            </activityIndicatorView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Focus Tracker" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VOP-qF-42I">
+                                <rect key="frame" x="54" y="485" width="267" height="54"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Untitled design" translatesAutoresizingMaskIntoConstraints="NO" id="LUc-Mz-p81">
+                                <rect key="frame" x="-62.666666666666657" y="-24" width="500.33333333333326" height="500"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemGray4Color"/>
+                        <constraints>
+                            <constraint firstItem="VOP-qF-42I" firstAttribute="centerX" secondItem="gam-AC-b0A" secondAttribute="centerX" id="DvD-bs-E6p"/>
+                            <constraint firstItem="VOP-qF-42I" firstAttribute="top" secondItem="LUc-Mz-p81" secondAttribute="bottom" constant="9" id="FHd-gn-DU6"/>
+                            <constraint firstItem="gam-AC-b0A" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="OLm-6q-Ec2"/>
+                            <constraint firstItem="VOP-qF-42I" firstAttribute="top" secondItem="gam-AC-b0A" secondAttribute="bottom" constant="61" id="Sc8-D5-uUu"/>
+                            <constraint firstItem="gam-AC-b0A" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="344" id="ULB-Z4-QCB"/>
+                            <constraint firstItem="VOP-qF-42I" firstAttribute="centerX" secondItem="LUc-Mz-p81" secondAttribute="centerX" id="dv2-jj-Ngb"/>
+                            <constraint firstItem="VOP-qF-42I" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="54" id="h1m-ff-nlf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="VOP-qF-42I" secondAttribute="bottom" constant="239" id="kKY-UY-klc"/>
+                            <constraint firstItem="VOP-qF-42I" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="pnx-zP-0g8"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="50.399999999999999" y="373.89162561576359"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Untitled design" width="500" height="500"/>
+        <systemColor name="systemGray4Color">
+            <color red="0.81960784313725488" green="0.81960784313725488" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
