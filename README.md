@@ -52,6 +52,7 @@ The app is designed to run at the foreground and background. A user can assume t
 
 
 ## Notifications 
+Notifications are sent are each interval letting the user known that one has finished and what is next. Notifications are useful for when a user has the app closed or phone locked. The phone will either give a default notification sound or vibrate when the message is sent. 
 <div>
   <img width="358" alt="light_screen" src="https://user-images.githubusercontent.com/27907086/131266869-1da872cc-56cb-4c90-a2d0-83f742c3ed76.png">
   &emsp;
@@ -73,5 +74,18 @@ The app is designed to run at the foreground and background. A user can assume t
   <img width="358" alt="light_screen" src="https://user-images.githubusercontent.com/27907086/131266938-3c2da9a5-bc17-4b3b-a8ad-f18c2144419a.png">
 </div>
 
+## Customization
+This app gives users the option to apply their own preferences to the timer. They can edit the length of each interval, the number of intervals before a long break, and their total goal for the day. These preferences effect the app on the next interval, where the user can then see the changes they've made. 
+
+With the use of Apple's User Defaults, any change of preferences is save to the phone memory. Therefore the user only does the change once (depending of their liking) and keep the preference for as long as they use the app. 
+<div>
+  <img width="358" alt="light_screen" src="https://user-images.githubusercontent.com/27907086/131267324-5837b7ae-89ec-4437-9a28-c22450ec56c1.gif">
+  &emsp;
+  &emsp;
+  &emsp;
+  &emsp;
+  &emsp;
+  <img width="358" alt="light_screen" src="https://user-images.githubusercontent.com/27907086/131267164-a0f34eeb-1b28-4b5a-b185-728d3e68bf36.gif">
+</div>
 
 
