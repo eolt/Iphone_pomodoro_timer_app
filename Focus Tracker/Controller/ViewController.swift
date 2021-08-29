@@ -4,7 +4,7 @@
 //
 //  Created by Edgar Olvera on 8/4/21.
 //
-//  Summury:
+//  Summary:
 //  This main view controller runs a simple pomodoro timer app.
 //  A pomodoro timer is a productivity method where a user can schedule the amount time
 //  to be productive and when to take breaks. The amount time is called an interval. The user gets
@@ -207,7 +207,20 @@ class ViewController: UIViewController {
                 setData(key: "currentLabel", data: 0)
             }
         }   // end reset
-        
+        else
+        {
+            //  Save default initialized values in case app shuts down before timer starts
+            setData(key: "currentMinutes", data: user.currentMinutes)
+            setData(key: "currentSeconds", data: user.currentSeconds)
+            setData(key: "currentInterval", data: user.interval)
+            setData(key: "totalHours", data: user.totalHours)
+            setData(key: "totalMinutes", data: user.totalMinutes)
+            setData(key: "nextIntervalForLngBr", data: user.nextIntervalBeforeLongBreak)
+            
+            setData(key: "onBreak", data: 0)
+            setData(key: "onWork", data: 1)
+            setData(key: "currentLabel", data: 0)
+        }
         
         // Change UI to reflect current phase and time
         
