@@ -89,6 +89,6 @@ With Apple's User Defaults, the app saves any change of preferences to the phone
 </div>
 
 ## Todos
-- Redo code to use more advance form of saving data to phone memory; such as core memory
+- Use more advance form of saving data to phone memory; such as core memory
 - Save productive hours and minutes for the whole week and notify user at the end of the week (like the Screen Time notification IPhone sends). 
 - Allow the user to customize specifics of productive intervals. For instance, instead of "Work" it can be "Study", "Draw", "Research", etc.
